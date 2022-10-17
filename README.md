@@ -13,6 +13,9 @@ at grpc.Client.process(Client.java:123)
 at grpc.Client.main(Client.java:136)
 ```
 
+It can be run from project's dir by command:  
+```gobgp-grpc-java-client$> ./gradlew run```  
+
 The **_*.proto_** files are taken from [gobgp/api](https://github.com/osrg/gobgp/tree/master/api) .
 
 The only example [gobgp-grpc-java](https://github.com/ng-labo/gobgp-grpc-java) I've found uses Maven tool and can't be built.
