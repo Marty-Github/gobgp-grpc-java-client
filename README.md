@@ -1,6 +1,6 @@
-A try to implement gobgp grpc java client by means of gradle build tool.  
-Projects 'grpc-java' and 'protobuf-gradle-plugin' are used as dependencies and plugin.
-It's building and running with error:
+A try to implement [gobgp grpc java client](https://github.com/Marty-Github/gobgp-grpc-java-client) by means of gradle build tool.  
+Projects [grpc-java](https://github.com/grpc/grpc-java) and [protobuf-gradle-plugin](https://github.com/google/protobuf-gradle-plugin)
+are used as dependencies and plugin. It's building and running with error:
 
 ```
 io.grpc.StatusRuntimeException: UNIMPLEMENTED: unknown service apipb.GobgpApi
@@ -13,9 +13,9 @@ at grpc.Client.process(Client.java:123)
 at grpc.Client.main(Client.java:136)
 ```
 
-The *.proto files are taken from gobgp/api .
+The **_*.proto_** files are taken from [gobgp/api](https://github.com/osrg/gobgp/tree/master/api) .
 
-The only example 'gobgp-grpc-java' I've found uses Maven tool and can't be built.
+The only example [gobgp-grpc-java](https://github.com/ng-labo/gobgp-grpc-java) I've found uses Maven tool and can't be built.
 I use java client's source code from that example in my project.
 
 My environment:
@@ -30,7 +30,16 @@ OpenJDK 64-Bit Server VM (build 11.0.16+8-post-Ubuntu-0ubuntu120.04, mixed mode,
 GoBgp service is installed under WSL2(Ubuntu 20.04) by command:  
 ```$>sudo apt-get -y install gobgpd```
 
-GoBgp service is runnig with configuration file taken from your 'Getting Started'.
+GoBgp's version:  
+```$>apt-cache policy gobgpd```  
+_gobgpd:  
+  Installed: 2.12.0-1  
+  Candidate: 2.12.0-1  
+  Version table:  
+ *** 2.12.0-1 500  
+    500 http://archive.ubuntu.com/ubuntu focal/universe amd64 Packages  100 /var/lib/dpkg/status_  
+
+GoBgp service is runnig with configuration file taken from your [Getting Started](https://github.com/osrg/gobgp/blob/master/docs/sources/getting-started.md).  
 GoBgp CLI is working well. All commands are executed.  
 
 
