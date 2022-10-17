@@ -1,4 +1,4 @@
-A try to implement gobgp grpc java client by means of gradle build tool.
+A try to implement gobgp grpc java client by means of gradle build tool.  
 Projects 'grpc-java' and 'protobuf-gradle-plugin' are used as dependencies and plugin.
 It's building and running with error:
 
