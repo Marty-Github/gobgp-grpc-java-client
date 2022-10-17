@@ -22,16 +22,17 @@ My environment:
 OS: Windows 10 => WSL2 => Ubuntu 20.04
 JDK: java-11-openjdk (linux)
 
-```$>java -version```
-openjdk version "11.0.16" 2022-07-19
+```$>java -version```  
+_openjdk version "11.0.16" 2022-07-19
 OpenJDK Runtime Environment (build 11.0.16+8-post-Ubuntu-0ubuntu120.04)
-OpenJDK 64-Bit Server VM (build 11.0.16+8-post-Ubuntu-0ubuntu120.04, mixed mode, sharing)
+OpenJDK 64-Bit Server VM (build 11.0.16+8-post-Ubuntu-0ubuntu120.04, mixed mode, sharing)_
 
-GoBgp service is installed under WSL2(Ubuntu 20.04) by command:
-$>sudo apt-get -y install gobgpd
+GoBgp service is installed under WSL2(Ubuntu 20.04) by command:  
+```$>sudo apt-get -y install gobgpd```
 
 GoBgp service is runnig with configuration file taken from your 'Getting Started'.
-GoBgp CLI is working well. All commands are executed.
+GoBgp CLI is working well. All commands are executed.  
+
 
 It's necessary to clarify what's wrong with it.
 
